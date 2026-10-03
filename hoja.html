@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Hoja de orador de Alan Tapia: charlas, bio, dónde habló y contacto.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Alan Tapia">
+<meta property="og:description" content="Hoja de orador de Alan Tapia: charlas, bio, dónde habló y contacto.">
+<meta property="og:url" content="https://soyalantapia.github.io/alan-tapia/hoja.html">
+<meta property="og:image" content="https://soyalantapia.github.io/alan-tapia/fotos/retrato.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%236D28D9'/%3E%3Ctext x='16' y='23' font-family='Arial,sans-serif' font-size='19' font-weight='800' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Alan Tapia, hoja de orador</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap">
+<style>
+/* Clara y moderna: blanco con violeta, letra grande sin serifa, la foto en tarjeta y la prueba en franja. Una sola paleta, elegida por Alan el 02/10 (dirección B). */
+:root{
+  --fondo:#FFFFFF;
+  --lila:#F6F2FF;
+  --lila-2:#ECE3FF;
+  --tinta:#140F22;
+  --gris:#5B5470;
+  --gris-2:#7A7091;
+  --linea:#E9E3F7;
+  --violeta:#6D28D9;
+  --violeta-hondo:#4C1D95;
+  --blanco:#FFFFFF;
+  --letra:"Archivo","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+button.boton{border:0;cursor:pointer}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--fondo);color:var(--tinta);font:400 1.0625rem/1.6 var(--letra);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3,p,ul,ol,figure,dl,dd{margin:0}
+ul,ol{padding:0;list-style:none}
+h1,h2,h3{text-wrap:balance}
+:focus-visible{outline:3px solid var(--violeta);outline-offset:3px;border-radius:6px}
+[id]{scroll-margin-top:5.5rem}
+.caja{width:100%;max-width:72rem;margin-inline:auto;padding-inline:clamp(1rem,4vw,2.5rem)}
+.ceja{font:600 .8rem/1.3 var(--letra);letter-spacing:.16em;text-transform:uppercase;color:var(--violeta)}
+.titulo{font:800 clamp(2rem,4.6vw,3.25rem)/1.05 var(--letra);letter-spacing:-.035em}
+.seccion{padding-block:clamp(4rem,9vw,7rem)}
+.encabezado{display:grid;gap:.9rem;margin-bottom:clamp(2rem,5vw,3.25rem);max-width:44rem}
+.encabezado .bajada{font-size:1.15rem;color:var(--gris)}
+.boton{display:inline-flex;align-items:center;gap:.5rem;background:var(--violeta);color:var(--blanco);text-decoration:none;font:600 1rem/1 var(--letra);padding:1.05rem 1.5rem;border-radius:12px;transition:background .2s}
+.boton:hover{background:var(--violeta-hondo)}
+.enlace{display:inline-flex;align-items:center;gap:.5rem;font:600 1rem/1 var(--letra);color:var(--tinta);text-decoration:none}
+.enlace:hover{color:var(--violeta)}
+.flecha::after{content:"→";display:inline-block;transition:transform .2s}
+.flecha:hover::after{transform:translateX(3px)}
+
+/* Cabecera */
+.cabecera{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
+.cabecera .caja{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:.85rem}
+.marca{font:800 1.15rem/1 var(--letra);letter-spacing:-.02em;text-decoration:none;color:var(--tinta)}
+.marca span{color:var(--violeta)}
+.menu{display:flex;align-items:center;gap:1.6rem;font-size:.95rem;font-weight:500}
+.menu a{text-decoration:none;color:var(--gris)}
+.menu a:hover{color:var(--tinta)}
+.menu .boton{padding:.75rem 1.1rem;font-size:.92rem;color:var(--blanco)}
+.menu .boton:hover{color:var(--blanco)}
+@media (max-width:52rem){.menu a:not(.boton){display:none}}
+
+/* Pie */
+.pie{border-top:1px solid var(--linea)}
+.pie .caja{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem 2rem;padding-block:2rem;color:var(--gris);font-size:.95rem}
+.pie nav{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem}
+.pie a{text-decoration:none}
+.pie a:hover{color:var(--violeta)}
+.hoja{max-width:52rem;margin:clamp(1.5rem,4vw,3rem) auto;padding:clamp(1.5rem,4vw,2.75rem);border:1px solid var(--linea);border-radius:20px;display:grid;gap:1.6rem;background:var(--blanco)}
+.h-tapa{display:grid;grid-template-columns:minmax(0,1fr) 11rem;gap:1.5rem;align-items:center}
+.h-tapa .nombre{font:800 clamp(2.4rem,6vw,3.4rem)/.95 var(--letra);letter-spacing:-.045em}
+.h-tapa .nombre span{color:var(--violeta)}
+.h-tapa .frase{font:500 1.15rem/1.35 var(--letra);margin-top:.6rem;max-width:30ch}
+.h-tapa img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 16%;border-radius:14px}
+.h-cols{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:1.6rem}
+.h-bloque{display:grid;gap:.6rem;align-content:start}
+.h-bloque h2{font:600 .78rem/1.3 var(--letra);letter-spacing:.16em;text-transform:uppercase;color:var(--violeta)}
+.h-charlas{display:grid;gap:.8rem}
+.h-charlas b{display:block;font:700 1.02rem/1.25 var(--letra)}
+.h-charlas span{color:var(--gris);font-size:.92rem}
+.h-bloque p{color:var(--gris);font-size:.95rem}
+.h-lista li{font-size:.93rem;padding-block:.15rem}
+.h-pie{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem 1.5rem;padding-top:1rem;border-top:1px solid var(--linea);font-size:.92rem;color:var(--gris)}
+.h-pie b{color:var(--tinta)}
+.acciones-hoja{max-width:52rem;margin:0 auto clamp(2rem,5vw,3rem);padding-inline:clamp(1rem,4vw,0rem);display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+@media (max-width:40rem){.h-tapa,.h-cols{grid-template-columns:minmax(0,1fr)}.h-tapa img{max-width:12rem}}
+@page{size:A4;margin:12mm}
+@media print{
+  body{background:#fff}
+  .cabecera,.pie,.acciones-hoja{display:none!important}
+  .hoja{margin:0;border:0;padding:0;max-width:none;gap:1.1rem}
+  .h-tapa .nombre{font-size:30pt}
+  .h-tapa{grid-template-columns:minmax(0,1fr) 38mm}
+  .h-cols{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}
+  a{text-decoration:none}
+}
+</style>
+</head>
+<body>
+<header class="cabecera">
+  <div class="caja">
+    <a class="marca" href="index.html">Alan <span>Tapia</span></a>
+    <nav class="menu" aria-label="Secciones">
+      <a href="kit.html">Kit</a>
+      <a class="boton" href="https://linkedin.com/in/alantapia/">Invitame</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<article class="hoja">
+  <div class="h-tapa">
+    <div>
+      <p class="ceja">Empresario tecnológico · Córdoba, Argentina</p>
+      <h1 class="nombre">Alan <span>Tapia</span></h1>
+      <p class="frase">Hago que las cadenas gastronómicas sepan quién les compra.</p>
+    </div>
+    <img src="fotos/retrato.jpg" width="900" height="1351" alt="Alan Tapia con micrófono en el escenario del Colegio Inmobiliario de Buenos Aires">
+  </div>
+
+  <div class="h-cols">
+    <div class="h-bloque">
+      <h2>Charlas</h2>
+      <ul class="h-charlas">
+        <li><b>Tenés ventas, no tenés clientes</b><span>Qué cambia cuando una cadena sabe quién le compra. Gastronomía y comercio, 20 o 40 minutos.</span></li>
+        <li><b>Construimos 18 cosas que nadie usó</b><span>Lo que se adopta y lo que queda en cero, contado en producción. Tecnología y emprendedores, 10 o 20 minutos.</span></li>
+        <li><b>Le pedí a la IA que ordenara mi empresa y aceleró el desorden</b><span>De 66 herramientas de inteligencia artificial sumadas a su trabajo, usa 15. Pymes, 20 minutos.</span></li>
+        <li><b>Entrevista en vivo</b><span>Para programas, podcasts y streamings, de 20 a 40 minutos.</span></li>
+      </ul>
+    </div>
+    <div class="h-bloque">
+      <h2>Bio</h2>
+      <p>Alan Tapia fundó Deenex, canal propio para cadenas gastronómicas, y Xnod, una fábrica de software, y opera las dos todos los días. En un escenario cuenta qué tecnología se usa de verdad y cuál queda sin usar, con casos y números propios.</p>
+      <h2 style="margin-top:.6rem">Habló en</h2>
+      <ul class="h-lista">
+        <li>Colegio Inmobiliario de Buenos Aires</li>
+        <li>Institución Cervantes, Córdoba</li>
+        <li>Colegio de Inmobiliarios de Córdoba</li>
+        <li>Federación de Bomberos Voluntarios</li>
+      </ul>
+      <h2 style="margin-top:.6rem">Salió en</h2>
+      <p>iProUP · Radio Cultura · Noticias (d) · Data Engineering Radio · FM Génesis</p>
+    </div>
+  </div>
+
+  <div class="h-pie">
+    <span><b>Más:</b> soyalantapia.github.io/alan-tapia</span>
+    <span><b>LinkedIn:</b> linkedin.com/in/alantapia</span>
+  </div>
+</article>
+
+<div class="acciones-hoja">
+  <a class="enlace flecha" href="kit.html">Volver al kit </a>
+  <button type="button" class="boton" id="imprimir" hidden>Imprimir o guardar como PDF</button>
+</div>
+</main>
+
+<script>
+(function () {
+  var b = document.getElementById('imprimir');
+  if (b && window.self === window.top) {
+    b.hidden = false;
+    b.addEventListener('click', function () { window.print(); });
+  }
+})();
+</script>
+</body>
+</html>
